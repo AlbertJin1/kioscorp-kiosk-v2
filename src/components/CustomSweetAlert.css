@@ -1,0 +1,43 @@
+/* CustomSweetAlert.css */
+.swal2-popup {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3rem !important;
+    /* Adjust the font size */
+    background-color: #f8f9fa !important;
+    /* Change the background color */
+    border-radius: 10px !important;
+    /* Add border radius */
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+    /* Add shadow */
+    
+    max-width: 80%; /* Optional: Set a maximum width to ensure responsiveness */
+}
+
+.swal2-title {
+    color: #343a40 !important;
+    /* Change the title color */
+}
+
+.swal2-content {
+    color: #6c757d !important;
+    /* Change the content color */
+}
+
+.swal2-icon {
+    border-radius: 50% !important;
+    /* Round icons */
+    margin-top: 20px !important;
+    /* Adjust icon margin */
+}
+
+.swal2-confirm {
+    background-color: #007bff !important;
+    /* Change the confirm button color */
+    color: #fff !important;
+    /* Change the confirm button text color */
+}
+
+.swal2-timer-progress-bar {
+    background-color: #007bff !important;
+    /* Change the timer progress bar color */
+}

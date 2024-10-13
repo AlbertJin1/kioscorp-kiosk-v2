@@ -1,0 +1,19 @@
+sudo apt install python3-pip
+pip3 install python-escpos
+
+
+I SET SA ANG DATE NGA CURRENT DAPAT THEN KANI:
+sudo -H pip3 install python-escpos --break-system-packages
+sudo apt-get install libusb-1.0-0-dev
+
+ESCPOS DEPENDENCIES:
+sudo apt-get install libusb-1.0-0-dev
+sudo pip3 install pyusb --break-system-packages
+
+
+FOR ENVIRONMENT
+python3 -m venv myenv
+source myenv/bin/activate
+
+
+sudo usermod -aG lp $USER
